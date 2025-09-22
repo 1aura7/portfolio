@@ -1,0 +1,67 @@
+body {
+    font-family: arial, sans-serif;
+    background-color:rgb(234, 249, 255) ;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(31, 111, 231);
+    
+}
+
+
+label[for="nom"], label[for="mdp"]{
+    color:rgb(31, 111, 231);
+   
+}
+
+
+form {
+    background-color: rgb(255, 255, 255)  ;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 60px;
+    box-shadow: 0 10 10px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    display:flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(79, 155, 28);
+
+}
+
+input[type="text"], input[type="email"],[type="password"], input[type="date"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(31, 111, 231);
+    border-radius: 10px;
+    display:flex;
+}
+
+input[type="submit"] {
+    background-color: rgb(31, 111, 231);
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: center;
+    
+    
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(79, 155, 28);
+   
+}
+
+
+
+
