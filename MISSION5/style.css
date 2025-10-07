@@ -50,15 +50,11 @@ body {
     height: 150px;
   }
   
-  header table {
-    border: none;
-  }
-  
- 
   footer {
     text-align: center;
     margin-top: 40px;
     font-size: 14px;
     color: black;
   }
+
   
