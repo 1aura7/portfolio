@@ -25,13 +25,6 @@ body {
     color: #3388CC;
   }
 
-  .Formation,
-  .Exp,
-  .competences,
-  .interets {
-    margin-bottom: 20px;
-  }
-  
  
   header .formation {
     display: flex;
@@ -58,3 +51,4 @@ body {
   }
 
   
+
