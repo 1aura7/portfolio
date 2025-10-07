@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(51, 135, 204, 0.13);
+  }
+  
+  /* Conteneur principal */
+  .bloc {
+    width: 780px;
+    margin: 40px auto;
+    border: 5px solid #3388CC;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3388CC;
+  }
+
+  .Formation,
+  .Exp,
+  .competences,
+  .interets {
+    margin-bottom: 20px;
+  }
+  
+ 
+  header .formation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  
+  .photo img {
+    border-radius: 50%;
+    border: 2px solid #3388CC;
+    box-shadow: 0 0 8px rgb(15, 15, 15);
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+  }
+  
+  header table {
+    border: none;
+  }
+  
+ 
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: black;
+  }
+  
