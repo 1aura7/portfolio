@@ -33,7 +33,7 @@ body {
   }
   
 section{
-    background-color: rgba(145, 196, 238, 0.397);
+    background-color: rgba(145, 196, 238, 0.300);
     padding: 20px;
     margin: 15px auto;
     width: 95%;
@@ -48,4 +48,5 @@ section{
     font-size: 14px;
     color: black;
   }
+
   
