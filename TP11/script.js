@@ -20,7 +20,7 @@ function calcul_moyenne(){
 function test_age(){
     let age = prompt ("Quelle est votre age ?");
     if (age < 18){
-        document.write("*vous êtes mineur");
+        document.write("Vous êtes mineur");
         document.bgColor="red"
     }
     else{
@@ -62,4 +62,5 @@ function test_couleur(){
     else{
         document.write("Couleur non comprise")
     }
+
 }
