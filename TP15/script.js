@@ -33,9 +33,10 @@ function addLigne(){
         var cell2 = newRow.insertCell(1);
         var cell3 = newRow.insertCell(2);
         cell1.innerHTML = name;
-        cell2.innerHTML = age;
-        cell3.innerHTML = prenom;
+        cell2.innerHTML = prenom;
+            cell3.innerHTML = age;
     }
 
 
 }
+
