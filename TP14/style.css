@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(122, 122, 122) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 96, 170);
+    color:#000000;
+    width: 22%;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3 ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgb(14, 14, 14); 
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color: rgba(255, 0, 119, 0.829);
+    box-shadow: 0 4px 10px rgb(0, 0, 0); 
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: black;
+  }
+
+
+
+  

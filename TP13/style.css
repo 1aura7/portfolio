@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 40px;
+    line-height: 1.5;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+.caca {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.caca h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.caca p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+
+.abc, .def {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fafafa;
+}
+
+.abc {
+    margin-right: 3%;
+}
+
+.abc h2, .def h3 {
+    color: #d40000;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.abc p, .def p {
+    margin: 3px 0;
+}
+
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+}
+
+
+.tab div {
+    flex: 1;
+}
+
+.tab label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.tab input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin: 3px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: right;
+}
+
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #d40000;
+    box-shadow: 0 0 3px #d40000;
+}
+
+
+button {
+    background-color: #d40000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #de7979;
+}
+
+
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+u {
+    text-decoration-color: #d40000;
+}
