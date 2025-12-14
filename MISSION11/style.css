@@ -1,0 +1,183 @@
+/* ===============================
+   RESET
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===============================
+   PAGE
+================================ */
+body {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    color: #000;
+}
+
+/* ===============================
+   TITRE
+================================ */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+/* ===============================
+   BLOCS DESTINATAIRE
+================================ */
+.infos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.bloc-info {
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+
+.bloc-info h3 {
+    color: red;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.bloc-info p {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+/* ===============================
+   CONTENEUR FACTURE
+================================ */
+#facture-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ===============================
+   TITRE FACTURE CLIENT
+================================ */
+#facture-container h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* ===============================
+   TABLE FACTURE
+================================ */
+#table-facture {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#table-facture th {
+    text-align: left;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+#table-facture td {
+    padding: 6px 4px;
+}
+
+/* ===============================
+   INPUTS
+================================ */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+input[readonly] {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* ===============================
+   BOUTONS
+================================ */
+.actions {
+    margin: 15px 0 25px 0;
+}
+
+.actions button {
+    margin-right: 10px;
+}
+
+/* Boutons rouges */
+.btn-secondary,
+.btn-bonus,
+.btn-primary {
+    background-color: #d60000;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+}
+
+.btn-secondary:hover,
+.btn-bonus:hover,
+.btn-primary:hover {
+    background-color: #a80000;
+}
+
+/* ===============================
+   PARAMÈTRES DE CALCUL
+================================ */
+#parametres-calcul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.param-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.param-row label {
+    font-weight: bold;
+}
+
+/* ===============================
+   RÉSULTATS
+================================ */
+#resultats {
+    margin-top: 15px;
+}
+
+#resultats p {
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+#resultats hr {
+    margin: 12px 0;
+}
+
+.solde-final {
+    font-size: 20px;
+    font-weight: bold;
+}
