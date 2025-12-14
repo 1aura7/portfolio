@@ -1,0 +1,129 @@
+/* Reset basique */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #111, #2b2b2b);
+    color: #f5f5f5;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ff3b3b;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 900px;
+    margin: auto;
+}
+
+.question {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.question p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+li:hover {
+    background-color: #2d2d2d;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+img {
+    display: block;
+    margin: 10px auto 15px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+button {
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #e63232;
+    transform: scale(1.05);
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff8c8c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#score {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .question {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+}
